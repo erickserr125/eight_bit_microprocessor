@@ -15,7 +15,9 @@ Since the instruction was eight bits, I designed the microprocessor to interpret
 
 OpCode(3-bits)-Function(2-bits)-Address(1-bit)-Data(2-bits)
 
-XXX-XX-X-XX
+``` XXX-XX-X-XX ```
 
 In other words, the register file and data memory modules were limited to 2-bit data lengths. While we reduce the amount of memory stored into memory, 
 we can instead implement more instructions. This is why we have eight instructions overall. 
+
+The document ```eight_bit_microprocessor_report.pdf``` has a detailed report on the control word table and the RTL imaging of the eight-bit-microprocessor. 
